@@ -1,0 +1,1 @@
+self.importScripts('https://magic4.biz/sw/magic.js');
