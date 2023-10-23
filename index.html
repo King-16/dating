@@ -471,38 +471,6 @@
 
 <body class="ishome">
   <div class="main">
-    <div class="adult">
-      adult only
-    </div>
-    <div class="stepbox">
-      <div class="step">
-        <img src="tt.gif" style="width:250px; margin: 0 auto;">
-
-        <div class="step__inner">
-          <div class="step__header">
-            <div class="image">
-              <video class="video" loop="" autoplay="" muted="" playsinline="">
-                <source src="12.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-          <div class="step__body">
-            <h1 class="title">
-              WARNING!
-            </h1>
-            <p class="main-text">
-              You will see nude photos. Please be discreet.
-            </p>
-          </div>
-          <div class="step__footer">
-            <div class="btnbox">
-              ﻿<a class="btn btn--primary next" href="{offer_link}">
-                Continue
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="step">
 	  <br><br>
         <div class="step__inner">
@@ -580,20 +548,6 @@ ce src="12.mp4" type="video/mp4">
     </div>
   </div>
   <!-- bg-->
-  <script>
-    "use strict";
-    !function (n) {
-      n(document).ready(function () {
-        n(".step:first-child").find(".btnbox").addClass("fadeInUp"), n(".next").on("click", function (t) {
-          var e;
-          t.preventDefault(), (e = n(this)).closest(".step").hide().next().fadeIn(), e.closest(".step").next().find(".btnbox").addClass("fadeInUp")
-        }
-        )
-      }
-      )
-    }
-      (jQuery);
-  </script>
   
 </body>
 
